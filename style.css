@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 .top-banner {
+    background-color: beige;
     background-image: url("./images/corner.png");
     background-repeat: no-repeat;
     padding-bottom: 100px;
