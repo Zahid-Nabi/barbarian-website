@@ -15,8 +15,12 @@ body {
     width: 50%;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
+h2 {
+    font-size: 30px;
+}
+
 h1 span {
     color: #e74c3c;
 }
@@ -56,4 +60,35 @@ p {
 }
 .about p {
     width: 75%;
+}
+
+/* Classification Section */
+.classification {
+    padding: 75px;
+    background-image: url("./images/side-two.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.card {
+    width: 45%;
+    margin: 0 2.5%;
+    box-shadow: 5px 5px 50px gray;
+    padding: 30px;
+    border-left: 7px solid;
+    border-radius: 0 10px 10px 0;
+}
+.card h3 {
+    color: orangered;
+}
+.king {
+    border-image: linear-gradient(#2bbfec, #c8c821);
+    border-image-slice: 1;
+}
+.raged {
+    border-image: linear-gradient(#238ef3, #89253e);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    font-size: 14px;
 }
