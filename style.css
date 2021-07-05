@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.top-banner {
+    background-image: url("./images/corner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.flex-container {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+}
+h1 {
+    font-size: 60px;
+}
+h1 span {
+    color: #e74c3c;
+}
+p {
+    font-size: 18px;
+    color: gray;
+    text-align: justify;
+}
+.banner-text {
+    margin: 80px 80px 0;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background: linear-gradient(#6bb8ec,#216b9c);
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.banner-img {
+    margin-right: 80px;
+}
+.banner-img img {
+    width: 100%;
+}
+
+/* About Section */
+
+.about {
+    padding: 75px 0;
+    background-image: url(./images/side-one.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.about p {
+    width: 75%;
+}
